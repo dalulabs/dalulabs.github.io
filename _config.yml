@@ -1,4 +1,4 @@
 # Jekyll skips folders starting with "_" and folders named node_modules. The One Lie web build needs them.
 include:
-  - one-lie/_expo
-  - one-lie/assets/node_modules
+  - _expo
+  - node_modules
