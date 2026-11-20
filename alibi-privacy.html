@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <!--
   Publish as https://dalulabs.github.io/alibi-privacy.html (the URL in src/config.ts), and enter that URL in App Store Connect.
-  Accurate for version 1.0.0: no analytics, no accounts, no ads. Network use is limited to Apple's StoreKit
-  (the optional purchase) and Expo's update service (new files and fixes).
-  UPDATE SECTIONS 1 AND 4 BEFORE ADDING ANALYTICS OR ADS, and update the store privacy answers to match.
+  Version for 1.1.0, which adds optional rewarded ads through Google AdMob. Publish it when 1.1 is released,
+  not before, and update the App Store privacy answers at the same time (see docs/store-listing.md).
 -->
 <html lang="en">
 <head>
@@ -28,18 +27,19 @@
 </head>
 <body>
   <h1>Privacy Policy for Alibi</h1>
-  <p class="muted">Last updated: November 18, 2026</p>
+  <p class="muted">Last updated: November 20, 2026</p>
 
   <p>
     Alibi (“the app”, “we”, “us”) is a logic-puzzle game published by <strong>Dalu</strong>.
-    This policy explains what data the app handles. The short version: we don't collect any.
+    This policy explains what data the app handles. The short version: we collect nothing ourselves.
+    If you choose to watch an ad, Google's ad service receives some technical data to show it.
   </p>
 
   <h2>1. Information we collect</h2>
   <p>
-    <strong>None.</strong> Alibi has no accounts, no sign-in, no advertising, and no analytics or
-    tracking tools. We do not collect your name, email address, location, contacts, photos,
-    device identifiers, or any other personal information.
+    <strong>We collect none.</strong> Alibi has no accounts, no sign-in, and no analytics. We do not
+    collect your name, email address, location, contacts, photos, device identifiers, or any other
+    personal information, and we never see any data about you.
   </p>
 
   <h2>2. Data stored on your device</h2>
@@ -69,26 +69,44 @@
     platform, which Expo uses only to deliver the update. We do not receive or store this information.
   </p>
 
-  <h2>4. Sharing</h2>
+  <h2>4. Optional ads</h2>
   <p>
-    We do not sell or share any data with third parties. The app has nothing to share: it sends
-    nothing about you or your play to us or to anyone else.
+    Players without Full Access can choose to watch a short ad to open one locked file. Ads are never
+    shown on their own, never interrupt a file, and are never shown to anyone who has bought Full Access.
+    They are provided by <strong>Google AdMob</strong>. When you open the purchase screen or watch an ad,
+    Google's ad software on your device may send Google your IP address (which gives an approximate
+    location), basic device and app information (including an identifier that is shared only between apps from the same developer), and information about the ad, such as whether it was
+    shown and watched. Google uses this to show the ad, to measure it and to prevent fraud.
+  </p>
+  <p>
+    Alibi asks Google for <strong>non-personalized ads</strong> only and never asks for permission to
+    track you across other companies' apps and websites, so it does not use your device's advertising
+    identifier. Where the law requires it, for example in the European Economic Area and the United
+    Kingdom, you are asked for consent before any ad is requested. Google's own privacy policy applies:
+    <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>, and
+    <a href="https://policies.google.com/technologies/partner-sites">how Google uses data from partner apps</a>.
   </p>
 
-  <h2>5. Children</h2>
+  <h2>5. Sharing</h2>
   <p>
-    Alibi contains no violent or mature content and collects no personal information from anyone,
-    including children.
+    We do not sell or share any data with third parties. Apart from the ad requests described above,
+    which go directly from your device to Google, the app sends nothing about you or your play to us
+    or to anyone else.
   </p>
 
-  <h2>6. Changes to this policy</h2>
+  <h2>6. Children</h2>
   <p>
-    If a future version of the app adds features that handle data, such as optional usage statistics
-    or advertising, we will update this policy before that version is released and change the
-    date above.
+    Alibi contains no violent or mature content, and we collect no personal information from anyone,
+    including children. Alibi is not directed at children under 13.
   </p>
 
-  <h2>7. Contact</h2>
+  <h2>7. Changes to this policy</h2>
+  <p>
+    If a future version of the app changes how data is handled, we will update this policy before
+    that version is released and change the date above.
+  </p>
+
+  <h2>8. Contact</h2>
   <p>
     Questions about this policy or the app:
     <a href="mailto:dalulabs.app@gmail.com">dalulabs.app@gmail.com</a>
